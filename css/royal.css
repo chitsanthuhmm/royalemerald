@@ -1,0 +1,110 @@
+body {
+    padding-top: 70px;
+    font-family: 'Roboto', sans-serif;
+    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+h3,.froyal{
+    font-family: 'Sail', cursive !important;
+    font-size:30px !important;
+    color:#fff;
+    text-align:center;
+}
+.subroyal{
+    font-family: 'Roboto', sans-serif;
+    font-size:20px !important;
+    color:#fff;
+    letter-spacing:1px;
+    font-weight:200;
+}
+ul.dropdown-menu>li>a{
+    font-size:16px !important;
+}
+
+.nav > li{
+    /* background-color: #0b5c0b; */
+}
+
+.navbar-default .navbar-nav > li > a{
+    color:#fff;
+    font-weight:200;
+}
+
+.nav > li > a:hover {
+
+    color:#8a8a8a !important;
+}
+/* .navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    border-color:#0b5c0b;
+} */
+
+
+.event > li {
+    font-size:1.1em;
+    line-height:2em;
+}
+
+.navbar .dropdown-menu a{
+
+    color: #fff !important			
+}
+.navbar .dropdown-menu a:hover{
+   background-color:#39bf87;
+}
+
+.dropdown-menu{
+  background-color:#0b5c0b;
+  margin-top: 5px !important;
+  margin-right: -40px;
+}
+
+.error {color: #FF0000;}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{
+ color: #fff;
+ background-color: #0b5c0b;
+}
+.open > .dropdown-menu {
+-webkit-transform: scale(1, 1);
+transform: scale(1, 1);  
+opacity:1;
+}
+
+.dropdown-menu {
+opacity:.3;
+-webkit-transform-origin: top;
+transform-origin: top;
+-webkit-animation-fill-mode: forwards;  
+animation-fill-mode: forwards; 
+-webkit-transform: scale(1, 0);
+transition: all 0.3s linear;
+-webkit-transition: all 0.3s linear;
+width:250px;
+border-top:2px solid #fff;
+padding:0px;
+}
+
+.caret-up {
+width: 0; 
+height: 0; 
+border-left: 4px solid rgba(0, 0, 0, 0);
+border-right: 4px solid rgba(0, 0, 0, 0);
+border-bottom: 4px solid;
+
+display: inline-block;
+margin-left: 2px;
+vertical-align: middle;
+}
+
+h4{
+    border-left:8px solid #0b5c0b;
+    padding:10px;
+    margin-bottom:20px;
+    border-bottom:1px solid #e3e3e3;
+}
+
+.greentext{
+    font-family: sans-serif;
+    color: #0b5c0b;
+    font-size: 16px;
+    font-weight: 700;
+}
